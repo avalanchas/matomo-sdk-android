@@ -135,7 +135,7 @@ public class TrackHelper {
         }
 
         /**
-         * Requires <a href="https://plugins.matomo.org/CustomDimensions">Custom Dimensions</a> plugin (server-side)
+         * Requires <a href=https://plugins.matomo.org/CustomDimensions>Custom Dimensions</a> plugin (server-side)
          *
          * @param index          accepts values greater than 0
          * @param dimensionValue is limited to 255 characters, you can pass null to delete a value
@@ -150,7 +150,7 @@ public class TrackHelper {
          * Only takes effect when setting prior to tracking the screen view.
          *
          * @see org.matomo.sdk.extra.CustomDimension and {@link #dimension(int, String)}
-         * @deprecated Consider using <a href="http://matomo.org/docs/custom-dimensions/">Custom Dimensions</a>
+         * @deprecated Consider using <a href=http://matomo.org/docs/custom-dimensions/>Custom Dimensions</a>
          */
         @Deprecated
         public Screen variable(int index, String name, String value) {
@@ -309,7 +309,7 @@ public class TrackHelper {
     }
 
     /**
-     * Tracks an  <a href="http://matomo.org/faq/new-to-matomo/faq_71/">Outlink</a>
+     * Tracks an  <a href=http://matomo.org/faq/new-to-matomo/faq_71/>Outlink</a>
      *
      * @param url HTTPS, HTTP and FTPare valid
      * @return this Tracker for chaining
@@ -342,7 +342,7 @@ public class TrackHelper {
     }
 
     /**
-     * Tracks an  <a href="http://matomo.org/docs/site-search/">site search</a>
+     * Tracks an  <a href=http://matomo.org/docs/site-search/>site search</a>
      *
      * @param keyword Searched query in the app
      * @return this Tracker for chaining
@@ -879,7 +879,7 @@ public class TrackHelper {
      * To track visit scoped custom variables.
      *
      * @see CustomVariables#put(int, String, String)
-     * @deprecated Consider using <a href="http://matomo.org/docs/custom-dimensions/">Custom Dimensions</a>
+     * @deprecated Consider using <a href=http://matomo.org/docs/custom-dimensions/>Custom Dimensions</a>
      */
     @Deprecated
     public VisitVariables visitVariables(int id, String name, String value) {
@@ -891,7 +891,7 @@ public class TrackHelper {
     /**
      * To track visit scoped custom variables.
      *
-     * @deprecated Consider using <a href="http://matomo.org/docs/custom-dimensions/">Custom Dimensions</a>
+     * @deprecated Consider using <a href=http://matomo.org/docs/custom-dimensions/>Custom Dimensions</a>
      */
     @Deprecated
     public VisitVariables visitVariables(CustomVariables customVariables) {

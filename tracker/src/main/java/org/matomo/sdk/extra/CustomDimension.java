@@ -37,7 +37,7 @@ public class CustomDimension {
      * Eg dimension1=foo or dimension2=bar.
      * So the tracking API parameter starts with dimension followed by the set dimensionId.
      * <p>
-     * Requires <a href="https://plugins.matomo.org/CustomDimensions">Custom Dimensions</a> plugin (server-side)
+     * Requires <a href=https://plugins.matomo.org/CustomDimensions>Custom Dimensions</a> plugin (server-side)
      *
      * @param trackMe        into which the data should be inserted
      * @param dimensionId    accepts values greater than 0
